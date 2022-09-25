@@ -1,0 +1,8 @@
+ormdantic
+fastapi
+uvicorn
+pydantic
+python-decouple
+starlette
+aiosqlite
+authx==0.7.0
