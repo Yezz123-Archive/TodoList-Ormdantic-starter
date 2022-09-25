@@ -1,7 +1,9 @@
 from datetime import datetime
-from app.db import db
-from uuid import uuid4
+
 from pydantic import BaseModel, Field
+
+from app.db import db
+
 
 @db.table(pk="id", indexed=["title"], tablename="todo_list")
 class TodoList(BaseModel):

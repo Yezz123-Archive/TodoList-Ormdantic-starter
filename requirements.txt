@@ -6,3 +6,4 @@ python-decouple
 starlette
 aiosqlite
 authx==0.7.0
+pre-commit
